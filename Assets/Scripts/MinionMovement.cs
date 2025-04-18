@@ -61,7 +61,7 @@ public class MinionMovement : MonoBehaviour
         // What happens when the minion reaches the end?
         // For now, let's just destroy it. You can change this later!
         Debug.Log(gameObject.name + " reached the end of the path.");
-        Destroy(gameObject);
+        // Destroy(gameObject);
 
         // --- Other possible actions ---
         // - Reduce player health/lives
