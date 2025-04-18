@@ -83,8 +83,8 @@ public class EnemySpawner : MonoBehaviour
         }
 
         // Print out how many minions are currently active in the scene
-        int activeMinions = FindObjectsOfType<MinionMovement>().Length;
-        Debug.Log("Active Minions: " + activeMinions);
+        // int activeMinions = FindObjectsByType<MinionMovement>(FindObjectsSortMode.None).Length;
+        // Debug.Log("Active Minions: " + activeMinions);
     }
 
     IEnumerator SpawnWave()
